@@ -26,24 +26,24 @@ const Disease = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center py-16">
+    <div className="min-h-screen flex flex-col items-center py-16 bg-white">
       {/* Blog Header */}
-      <div className="text-black w-full max-w-3xl p-4 shadow-2x">
+      <div className="text-black w-full max-w-3xl p-4">
         <div className="flex justify-between items-center">
-          <p className="text-sm">Jun 12, 2023 • 2 min read</p>
-          <span className="text-xl hover:cursor-pointer">
+          <p className="text-sm text-black">Jun 12, 2023 • 2 min read</p>
+          <span className="text-xl hover:cursor-pointer text-black">
             <BsThreeDotsVertical />
           </span>
         </div>
-        <h1 className="text-4xl font-bold mt-4">HOW TO BRAND A DISEASE?</h1>
-        <p className="text-lg font-sans mt-2">The incredible story behind the launch of a new pharmaceutical drug by A+B.</p>
+        <h1 className="text-4xl font-bold mt-4 text-black">HOW TO BRAND A DISEASE?</h1>
+        <p className="text-lg font-sans mt-2 text-black">The incredible story behind the launch of a new pharmaceutical drug by A+B.</p>
       </div>
 
       {/* Image Section */}
       <div className="mt-10 w-full max-w-3xl p-4">
         <div className="relative bg-black overflow-hidden shadow-2x">
           <Image
-            src="/Disease.jpeg"
+            src="/disease.jpeg"
             alt="Brand"
             layout="responsive"
             width={640}
@@ -59,17 +59,17 @@ const Disease = () => {
           Ever wondered how public awareness campaigns shape perceptions about health? Branding a disease is an intricate process that involves creating a relatable identity, crafting compelling messages, and engaging audiences to inspire action. Dive into this guide to learn how communication strategies can drive awareness and change.
         </p>
 
-        <h2 className="text-2xl font-bold p-4 mb-4">Understanding the Concept</h2>
+        <h2 className="text-2xl font-bold p-4 mb-4 text-black">Understanding the Concept</h2>
         <p className="text-base text-gray-700 mb-4 border-l-4 border-black p-4 font-serif">
           &quot;What does it mean to brand a disease?&quot; It’s about making a health issue recognizable and relatable. From the iconic pink ribbon for breast cancer to global campaigns for malaria prevention, branding creates a visual and emotional connection that resonates with the public. Learn how these efforts translate awareness into action.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4 p-4">Crafting a Powerful Message</h2>
+        <h2 className="text-2xl font-bold mb-4 p-4 text-black">Crafting a Powerful Message</h2>
         <p className="text-base text-gray-700 p-4 mb-4 font-serif">
           The right message can make all the difference. Successful disease branding involves understanding the audience and addressing their fears, hopes, and motivations. Use simple, impactful language and visuals that encourage engagement. Whether it’s promoting vaccinations or lifestyle changes, a clear message can inspire trust and action.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4 p-4">Building Community Support</h2>
+        <h2 className="text-2xl font-bold mb-4 p-4 text-black">Building Community Support</h2>
         <p className="text-3xl text-gray-700 p-4 border-l-4 border-black font-serif">
           &ldquo;Together, we can make a difference.&rdquo;
         </p>
@@ -80,7 +80,7 @@ const Disease = () => {
 
       {/* Comment Section */}
       <div className="w-full max-w-3xl mt-10 bg-white p-4">
-        <h3 className="text-2xl font-bold mb-4">Comments</h3>
+        <h3 className="text-2xl font-bold mb-4 text-black">Comments</h3>
 
         {/* Input for new comment */}
         <textarea
@@ -91,7 +91,7 @@ const Disease = () => {
         ></textarea>
         <button
           onClick={addComment}
-          className="px-9 border-black border-2 py-2 hover:bg-black hover:text-white transition duration-300 ease-in-out"
+          className="px-9 border-black border-2 py-2 text-black hover:bg-black hover:text-white transition duration-300 ease-in-out"
         >
           Add Comment
         </button>
@@ -99,7 +99,7 @@ const Disease = () => {
         {/* Display Comments */}
         <div className="mt-4">
           {comments.length === 0 ? (
-            <p>No comments yet. Be the first to comment!</p>
+            <p classname="text-black">No comments yet. Be the first to comment!</p>
           ) : (
             comments.map((comment, index) => (
               <div key={index} className="flex justify-between items-center p-2 border-b border-gray-200">
