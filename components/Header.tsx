@@ -27,7 +27,7 @@ const Header = () => {
           ) : (
             <>
               <RiMenuFill className="text-3xl text-black md:hidden" />
-              <h1 className="font-bold text-3xl hidden md:block">MENU</h1>
+              <h1 className="font-bold text-3xl text-black hidden md:block">MENU</h1>
             </>
           )}
         </button>
@@ -40,7 +40,7 @@ const Header = () => {
           <nav className="text-center">
             <ul className="space-y-8">
               <li>
-                <button className="px-9 border-black border-2 py-2 hover:bg-black hover:text-white transition duration-300 ease-in-out">
+                <button className="px-9 border-black border-2 py-2 text-black hover:bg-black hover:text-white transition duration-300 ease-in-out">
                   Subscribe
                 </button>
               </li>
