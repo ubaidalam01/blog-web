@@ -43,7 +43,7 @@ const Dona = () => {
       <div className="mt-10 w-full max-w-3xl p-4">
         <div className="relative bg-black overflow-hidden shadow-2x">
           <Image
-            src="/Donna.jpeg"
+            src="/donna.jpeg"
             alt="Brand"
             layout="responsive"
             width={640}
