@@ -99,7 +99,7 @@ const Dona = () => {
         {/* Display Comments */}
         <div className="mt-4">
           {comments.length === 0 ? (
-            <p classname="text-black">No comments yet. Be the first to comment!</p>
+            <p>No comments yet. Be the first to comment!</p>
           ) : (
             comments.map((comment, index) => (
               <div key={index} className="flex justify-between items-center p-2 border-b border-gray-200">
