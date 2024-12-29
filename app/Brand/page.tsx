@@ -26,7 +26,7 @@ const Brand = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center py-16">
+    <div className="min-h-screen flex flex-col items-center py-16 bg-white">
       {/* Blog Header */}
       <div className="text-black w-full max-w-3xl p-4 shadow-2x">
         <div className="flex justify-between items-center">
@@ -35,8 +35,8 @@ const Brand = () => {
             <BsThreeDotsVertical />
           </span>
         </div>
-        <h1 className="text-4xl font-bold mt-4">THE UNBRANDED BRAND</h1>
-        <p className="text-lg font-sans mt-2">Is generic the new unique?</p>
+        <h1 className="text-4xl font-bold mt-4 text-black">THE UNBRANDED BRAND</h1>
+        <p className="text-lg font-sans mt-2 text-black">Is generic the new unique?</p>
       </div>
 
       {/* Image Section */}
@@ -54,7 +54,7 @@ const Brand = () => {
       </div>
 
       {/* Blog Content */}
-      <div className="w-full max-w-3xl mt-10 bg-white">
+      <div className="w-full max-w-3xl mt-10 bg-white text-black">
         <p className="text-base text-gray-700 p-4 mb-4 font-serif">
         Welcome to your new blog! This is where you can connect with your readers and potential customers. Think of this as an ongoing conversation, where you share updates on your business, the latest trends, news, and much more. It&apos;s the perfect space to keep your audience informed and engaged while reflecting your brand&apos;s personality.
         </p>
@@ -79,7 +79,7 @@ const Brand = () => {
 
       {/* Comment Section */}
       <div className="w-full max-w-3xl mt-10 bg-white p-4">
-        <h3 className="text-2xl font-bold mb-4">Comments</h3>
+        <h3 className="text-2xl font-bold mb-4 text-black">Comments</h3>
 
         {/* Input for new comment */}
         <textarea
@@ -90,7 +90,7 @@ const Brand = () => {
         ></textarea>
         <button
           onClick={addComment}
-          className="px-9 border-black border-2 py-2 hover:bg-black hover:text-white transition duration-300 ease-in-out"
+          className="px-9 border-black border-2 py-2 text-black hover:bg-black hover:text-white transition duration-300 ease-in-out"
         >
           Add Comment
         </button>
