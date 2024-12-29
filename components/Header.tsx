@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="flex justify-between items-center bg-pnk-500 h-[100px] p-10">
+      <header className="flex justify-between items-center bg-pnk-500 h-[100px] p-10 bg-white">
         <button className="hidden md:block px-9 border-black border-2 py-2 hover:bg-black hover:text-white transition duration-300 ease-in-out">
           Subscribe
         </button>

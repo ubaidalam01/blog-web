@@ -7,7 +7,7 @@ import Asked from '@/components/Asked'
 
 const page = () => {
   return (
-    <div className="h-full">
+    <div className="h-full bg-white">
       <Hero/>
       <BlogCards/>
       <Story/>
