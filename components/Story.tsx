@@ -1,4 +1,6 @@
 import Image from 'next/image';
+import Link from 'next/link';
+
 
 const Story = () => {
   return (
@@ -23,9 +25,11 @@ const Story = () => {
           <h2 className="font-medium">
             July,12,2023 . 2 min read 
           </h2>
+            <Link href="/Story">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold hover:text-black">
             THE STORY BEHIND “FYI:<br/> I&apos;M ABOUT TO LOVE YOU” —<br/> AN INTERVIEW WITH KAY VAN<br/> HANS
           </h1>
+          </Link>
         </div>
         
       </div>

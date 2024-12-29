@@ -56,7 +56,7 @@ const Brand = () => {
       {/* Blog Content */}
       <div className="w-full max-w-3xl mt-10 bg-white">
         <p className="text-base text-gray-700 p-4 mb-4 font-serif">
-          Welcome to your new blog! This is where you can connect with your readers and potential customers. Think of this as an ongoing conversation, where you share updates on your business, the latest trends, news, and much more. It's the perfect space to keep your audience informed and engaged while reflecting your brand&apos;s personality.
+        Welcome to your new blog! This is where you can connect with your readers and potential customers. Think of this as an ongoing conversation, where you share updates on your business, the latest trends, news, and much more. It&apos;s the perfect space to keep your audience informed and engaged while reflecting your brand&apos;s personality.
         </p>
 
         <h2 className="text-2xl font-bold p-4 mb-4">Design with Ease</h2>

@@ -61,7 +61,7 @@ const Fetch = () => {
         <p className="text-base text-gray-700 p-4 mb-4 font-serif">
           Get ready to experience the vibrant energy of FETCH Festival BRLN
           2023! This iconic event brings together music, art, and culture in the
-          heart of Berlin. Whether you're a music enthusiast or a lover of
+          heart of Berlin.Whether you&apos;re a music enthusiast or a lover of 
           contemporary art, this festival promises an unforgettable celebration
           of creativity and community.
         </p>

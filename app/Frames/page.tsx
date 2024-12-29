@@ -68,9 +68,8 @@ const Frames = () => {
 
         <h2 className="text-2xl font-bold mb-4 p-4">Turning Moments into Art</h2>
         <p className="text-base text-gray-700 p-4 mb-4 font-serif">
-          Each frame is more than a photograph—it's a reflection of time and emotion. From the colors of a quiet morning to the energy of a bustling city, the project transforms everyday scenes into stunning visual art. Discover how to find beauty in the mundane and turn your daily life into a gallery-worthy collection.
-        </p>
-
+          Each frame is more than a photograph&mdash;it&apos;s a reflection of time and emotion. From the colors of a quiet morning to the energy of a bustling city, the project transforms everyday scenes into stunning visual art. Discover how to find beauty in the mundane and turn your daily life into a gallery-worthy collection.
+       </p>
         <h2 className="text-2xl font-bold mb-4 p-4">Share Your Story</h2>
         <p className="text-3xl text-gray-700 p-4 border-l-4 border-black font-serif">
           &ldquo;One frame. One story. Every day.&rdquo;

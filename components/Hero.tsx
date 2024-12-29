@@ -25,7 +25,7 @@ const Hero = () => {
             Jun 12, 2023.
             2 min read
             </h1> */}
-          <Link href="/All">
+          <Link href="/Dream1">
           <h1 className="font-bold text-5xl hover:text-black">
             A SURREAL
             <br />
