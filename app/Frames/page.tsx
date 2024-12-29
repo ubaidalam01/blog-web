@@ -26,7 +26,7 @@ const Frames = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center py-16">
+    <div className="min-h-screen flex flex-col items-center py-16 bg-white">
       {/* Blog Header */}
       <div className="text-black w-full max-w-3xl p-4 shadow-2x">
         <div className="flex justify-between items-center">
@@ -35,7 +35,7 @@ const Frames = () => {
             <BsThreeDotsVertical />
           </span>
         </div>
-        <h1 className="text-4xl font-bold mt-4">365 DAYS. 365 FRAMES.</h1>
+        <h1 className="text-4xl font-bold mt-4 text-black">365 DAYS. 365 FRAMES.</h1>
         <p className="text-lg font-sans mt-2">
           What can we learn from Matthew Soja&apos;s latest work? Shots from the same location in Oslo for one whole year, every single day.
         </p>
@@ -61,16 +61,16 @@ const Frames = () => {
           What if you could capture every single day in a frame? &quot;365 Days. 365 Frames.&quot; is a journey into the extraordinary moments hidden in the ordinary. From sunrises to celebrations, this project invites you to see life through a different lens—one day, one frame at a time.
         </p>
 
-        <h2 className="text-2xl font-bold p-4 mb-4">The Inspiration Behind the Project</h2>
+        <h2 className="text-2xl font-bold p-4 mb-4 text-black">The Inspiration Behind the Project</h2>
         <p className="text-base text-gray-700 mb-4 border-l-4 border-black p-4 font-serif">
           &quot;What inspired this creative endeavor?&quot; It started with a simple idea: to celebrate life&apos;s fleeting moments by capturing one frame each day. From candid snapshots to meticulously planned shots, these frames tell a story of resilience, beauty, and connection. Explore how each image becomes a piece of the larger narrative.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4 p-4">Turning Moments into Art</h2>
+        <h2 className="text-2xl font-bold mb-4 p-4 text-black">Turning Moments into Art</h2>
         <p className="text-base text-gray-700 p-4 mb-4 font-serif">
           Each frame is more than a photograph&mdash;it&apos;s a reflection of time and emotion. From the colors of a quiet morning to the energy of a bustling city, the project transforms everyday scenes into stunning visual art. Discover how to find beauty in the mundane and turn your daily life into a gallery-worthy collection.
        </p>
-        <h2 className="text-2xl font-bold mb-4 p-4">Share Your Story</h2>
+        <h2 className="text-2xl font-bold mb-4 p-4 text-black">Share Your Story</h2>
         <p className="text-3xl text-gray-700 p-4 border-l-4 border-black font-serif">
           &ldquo;One frame. One story. Every day.&rdquo;
         </p>
@@ -81,7 +81,7 @@ const Frames = () => {
 
       {/* Comment Section */}
       <div className="w-full max-w-3xl mt-10 bg-white p-4">
-        <h3 className="text-2xl font-bold mb-4">Comments</h3>
+        <h3 className="text-2xl font-bold mb-4 text-black">Comments</h3>
 
         {/* Input for new comment */}
         <textarea
@@ -92,7 +92,7 @@ const Frames = () => {
         ></textarea>
         <button
           onClick={addComment}
-          className="px-9 border-black border-2 py-2 hover:bg-black hover:text-white transition duration-300 ease-in-out"
+          className="px-9 border-black border-2 py-2 text-black hover:bg-black hover:text-white transition duration-300 ease-in-out"
         >
           Add Comment
         </button>
