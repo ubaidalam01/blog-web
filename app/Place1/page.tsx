@@ -26,7 +26,7 @@ const Place = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center py-16">
+    <div className="min-h-screen flex flex-col items-center py-16 bg-white">
       {/* Blog Header */}
       <div className="text-black w-full max-w-3xl p-4 shadow-2x">
         <div className="flex justify-between items-center">
@@ -35,11 +35,11 @@ const Place = () => {
             <BsThreeDotsVertical />
           </span>
         </div>
-        <h1 className="text-4xl font-bold mt-4">
+        <h1 className="text-4xl font-bold mt-4 text-black">
           20 MUSEUMS YOU SHOULD
           <br /> VISIT AT LEAST ONCE
         </h1>
-        <p className="text-lg font-sans mt-2">
+        <p className="text-lg font-sans mt-2 text-black">
           The full list includes 10 cities in 8 different countries.
         </p>
       </div>
@@ -68,7 +68,7 @@ const Place = () => {
           window into the past and the present.
         </p>
 
-        <h2 className="text-2xl font-bold p-4 mb-4">
+        <h2 className="text-2xl font-bold p-4 mb-4 text-black">
           Why Visit These Museums?
         </h2>
         <p className="text-base text-gray-700 mb-4 border-l-4 border-black p-4 font-serif">
@@ -79,7 +79,7 @@ const Place = () => {
           appreciation for the world around us.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4 p-4">Unmissable Highlights</h2>
+        <h2 className="text-2xl font-bold mb-4 p-4 text-black">Unmissable Highlights</h2>
         <p className="text-base text-gray-700 p-4 mb-4 font-serif">
           Whether it&apos;s the enigmatic Mona Lisa at the Louvre, the
           awe-inspiring dinosaur skeletons at the American Museum of Natural
@@ -88,7 +88,7 @@ const Place = () => {
           the must-see exhibits that make each visit unforgettable.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4 p-4">
+        <h2 className="text-2xl font-bold mb-4 p-4 text-black">
           Plan Your Museum Adventures
         </h2>
         <p className="text-3xl text-gray-700 p-4 border-l-4 border-black font-serif">
@@ -105,7 +105,7 @@ const Place = () => {
 
       {/* Comment Section */}
       <div className="w-full max-w-3xl mt-10 bg-white p-4">
-        <h3 className="text-2xl font-bold mb-4">Comments</h3>
+        <h3 className="text-2xl font-bold mb-4 text-black">Comments</h3>
 
         {/* Input for new comment */}
         <textarea
@@ -116,7 +116,7 @@ const Place = () => {
         ></textarea>
         <button
           onClick={addComment}
-          className="px-9 border-black border-2 py-2 hover:bg-black hover:text-white transition duration-300 ease-in-out"
+          className="px-9 border-black border-2 py-2 text-black hover:bg-black hover:text-white transition duration-300 ease-in-out"
         >
           Add Comment
         </button>
