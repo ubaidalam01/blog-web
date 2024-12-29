@@ -26,7 +26,7 @@ const Fetch = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center py-16">
+    <div className="min-h-screen flex flex-col items-center py-16 bg-white">
       {/* Blog Header */}
       <div className="text-black w-full max-w-3xl p-4 shadow-2x">
         <div className="flex justify-between items-center">
