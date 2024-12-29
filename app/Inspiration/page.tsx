@@ -21,17 +21,17 @@ const Inspiration = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center py-16">
+    <div className="min-h-screen flex flex-col items-center py-16 bg-white">
       {/* Blog Header */}
       <div className="text-black w-full max-w-3xl p-4 shadow-2x">
         <div className="flex justify-between items-center">
           <p className="text-sm">Jun 12, 2023 • 2 min read</p>
-          <span className="text-xl hover:cursor-pointer">
+          <span className="text-xl text-black hover:cursor-pointer">
             <BsThreeDotsVertical />
           </span>
         </div>
-        <h1 className="text-4xl font-bold mt-4">SEEKING INSPIRATION? 15 <br/>RESOURCES THAT WILL <br/>SURPRISE YOU</h1>
-        <p className="text-lg font-sans mt-2">From mini art galleries to hidden street.</p>
+        <h1 className="text-4xl font-bold mt-4 text-black">SEEKING INSPIRATION? 15 <br/>RESOURCES THAT WILL <br/>SURPRISE YOU</h1>
+        <p className="text-lg font-sans mt-2 text-black">From mini art galleries to hidden street.</p>
       </div>
 
       {/* Image Section */}
@@ -54,17 +54,17 @@ const Inspiration = () => {
           Feeling stuck or uninspired? Discover 15 incredible resources that can ignite your creativity. From thought-provoking podcasts to visually stunning art platforms, these tools are here to energize your mind and spark new ideas. Dive into this treasure trove and let your imagination flourish.
         </p>
 
-        <h2 className="text-2xl font-bold p-4 mb-4">Podcasts That Spark Ideas</h2>
+        <h2 className="text-2xl font-bold p-4 mb-4 text-black">Podcasts That Spark Ideas</h2>
         <p className="text-base text-gray-700 mb-4 border-l-4 border-black p-4 font-serif">
           &quot;Ever wondered how a simple conversation could light up your creative side?&quot; Explore engaging podcasts that delve into creativity, problem-solving, and innovation. Featuring hosts from diverse backgrounds, these shows challenge conventional thinking and offer fresh perspectives. Perfect for commutes or downtime, they’re bound to inspire your next big project.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4 p-4">Art Platforms for Visual Inspiration</h2>
+        <h2 className="text-2xl font-bold mb-4 p-4 text-black">Art Platforms for Visual Inspiration</h2>
         <p className="text-base text-gray-700 p-4 mb-4 font-serif">
           Online art communities are goldmines for creativity. Browse collections of digital art, photography, and graphic design that push boundaries. Curated galleries and emerging artist features make these platforms a must-visit for anyone seeking visual stimulation. Remember to save and organize your favorite pieces for quick inspiration whenever you need it.
         </p>
 
-        <h2 className="text-2xl font-bold mb-4 p-4">Uncover Hidden Gems</h2>
+        <h2 className="text-2xl font-bold mb-4 p-4 text-black">Uncover Hidden Gems</h2>
         <p className="text-3xl text-gray-700 p-4 border-l-4 border-black font-serif">
           &ldquo;Challenge yourself to look beyond the usual.&rdquo;
         </p>
@@ -75,7 +75,7 @@ const Inspiration = () => {
 
       {/* Comment Section */}
       <div className="w-full max-w-3xl mt-10 bg-white p-4">
-        <h3 className="text-2xl font-bold mb-4">Comments</h3>
+        <h3 className="text-2xl font-bold mb-4 text-black">Comments</h3>
 
         {/* Input for new comment */}
         <textarea
@@ -86,7 +86,7 @@ const Inspiration = () => {
         ></textarea>
         <button
           onClick={addComment}
-          className="px-9 border-black border-2 py-2 hover:bg-black hover:text-white transition duration-300 ease-in-out"
+          className="px-9 border-black border-2 py-2 text-black hover:bg-black hover:text-white transition duration-300 ease-in-out"
         >
           Add Comment
         </button>
