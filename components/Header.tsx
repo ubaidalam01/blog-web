@@ -26,7 +26,7 @@ const Header = () => {
             <RiCloseLine className="text-5xl text-black" />
           ) : (
             <>
-              <RiMenuFill className="text-3xl md:hidden" />
+              <RiMenuFill className="text-3xl text-black md:hidden" />
               <h1 className="font-bold text-3xl hidden md:block">MENU</h1>
             </>
           )}
@@ -45,17 +45,17 @@ const Header = () => {
                 </button>
               </li>
               <li>
-                <Link href="/All" className="text-4xl font-bold hover:underline" onClick={toggleMenu}>
+                <Link href="/All" className="text-4xl text-black font-bold hover:underline" onClick={toggleMenu}>
                   All
                 </Link>
               </li>
               <li>
-                <Link href="/About" className="text-4xl font-bold hover:underline" onClick={toggleMenu}>
+                <Link href="/About" className="text-4xl text-black font-bold hover:underline" onClick={toggleMenu}>
                   About
                 </Link>
               </li>
               <li>
-                <Link href="/Contact" className="text-4xl font-bold hover:underline" onClick={toggleMenu}>
+                <Link href="/Contact" className="text-4xl text-black font-bold hover:underline" onClick={toggleMenu}>
                   Contact
                 </Link>
               </li>
