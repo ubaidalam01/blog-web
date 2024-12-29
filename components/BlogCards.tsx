@@ -1,5 +1,6 @@
 import React from 'react';
-import Link from 'next/link'; 
+import Link from 'next/link';
+import Image from 'next/image'; // Import Image from next/image
 
 const CardComponent = () => {
   const cards = [
@@ -22,14 +23,14 @@ const CardComponent = () => {
       imageUrl: 'https://static.wixstatic.com/media/c837a6_61a8e45085564423b55da150c271136c~mv2.jpg/v1/fill/w_290,h_240,fp_0.50_0.50,q_90,enc_auto/c837a6_61a8e45085564423b55da150c271136c~mv2.jpg',
       date: "Jun 12, 2023 • 2 min read",
       description: 'An in-depth conversation with Donna Fay, answering 73 thought-provoking questions on creativity and success.',
-      url: '/Donna', 
+      url: '/Donna',
     },
     {
       title: 'HOW TO BRAND A DISEASE?',
       imageUrl: 'https://static.wixstatic.com/media/c837a6_c11c1e65b3434138b7a5cbbbbac07111~mv2.jpg/v1/fill/w_289,h_282,fp_0.50_0.50,q_90,enc_auto/c837a6_c11c1e65b3434138b7a5cbbbbac07111~mv2.jpg',
       date: "Jun 12, 2023 • 2 min read",
       description: 'A controversial exploration of how branding strategies can be applied to medical conditions for awareness.',
-      url: '/Disease', 
+      url: '/Disease',
     },
   ];
 
@@ -41,7 +42,13 @@ const CardComponent = () => {
           <Link key={index} href={card.url} passHref>
             <div className="bg-white shadow-[0_4px_12px_-5px_rgba(0,0,0,0.4)] w-full max-w-sm rounded-lg overflow-hidden mx-auto font-[sans-serif]">
               <div className="min-h-[256px]">
-                <img src={card.imageUrl} alt={card.title} className="w-full" />
+                <Image
+                  src={card.imageUrl}
+                  alt={card.title}
+                  width={290} // Set a width
+                  height={259} // Set a height
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-gray-800 text-xl font-bold">{card.title}</h3>

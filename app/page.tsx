@@ -1,5 +1,4 @@
 import BlogCards from '@/components/BlogCards'
-import Brand from '@/components/Brand'
 import Hero from '@/components/Hero'
 import Popular from '@/components/Popular'
 import Story  from '@/components/Story'

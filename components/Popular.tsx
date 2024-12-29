@@ -1,8 +1,7 @@
-"use client"
-import React from 'react'
+"use client";
+import React from 'react';
 import Link from 'next/link';
-import { url } from 'inspector';
-
+import Image from 'next/image';  // Import Image component from next/image
 
 const Popular = () => {
   const cards = [
@@ -31,19 +30,24 @@ const Popular = () => {
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-32">
-        
       {cards.map((card, index) => (
-         <Link key={index} href={card.url} passHref>
-        <div key={index} className="bg-white w-full max-w-sm overflow-hidden mx-auto font-[sans-serif]">
-          <div className="min-h-[256px]">
-            <img src={card.imageUrl} alt={card.title} className="w-full" />
+        <Link key={index} href={card.url} passHref>
+          <div className="bg-white w-full max-w-sm overflow-hidden mx-auto font-[sans-serif]">
+            <div className="min-h-[256px]">
+              <Image 
+                src={card.imageUrl} 
+                alt={card.title} 
+                width={396}  // Specify width for optimization
+                height={528} // Specify height for optimization
+                className="w-full" 
+              />
+            </div>
+            <div className="p-2">
+              <h3 className="text-gray-800 text-xl font-bold">{card.title}</h3>
+              <p className="mt-4 text-sm text-black leading-relaxed">{card.date}</p>
+              <p className="mt-4 text-sm text-black leading-relaxed">{card.description}</p>
+            </div>
           </div>
-          <div className="p-2">
-            <h3 className="text-gray-800 text-xl font-bold">{card.title}</h3>
-            <p className="mt-4 text-sm text-black leading-relaxed">{card.date}</p>
-            <p className="mt-4 text-sm text-black leading-relaxed">{card.description}</p>
-          </div>
-        </div>
         </Link>
       ))}
     </div>

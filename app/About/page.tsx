@@ -44,7 +44,7 @@ export default function About() {
               solutions that are both innovative and reliable.
             </p>
             <p className="mb-4">
-              Whether it's developing user-friendly applications, crafting
+              Whether it&apos;s developing user-friendly applications, crafting
               visually stunning designs, or implementing robust technical
               solutions, VOID is dedicated to exceeding expectations and setting
               new standards in the industry.

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { BsThreeDotsVertical } from "react-icons/bs";
@@ -55,31 +55,28 @@ const Disease = () => {
 
       {/* Blog Content */}
       <div className="w-full max-w-3xl mt-10 bg-white">
-  <p className="text-base text-gray-700 p-4 mb-4 font-serif">
-    Ever wondered how public awareness campaigns shape perceptions about health? Branding a disease is an intricate process that involves creating a relatable identity, crafting compelling messages, and engaging audiences to inspire action. Dive into this guide to learn how communication strategies can drive awareness and change.
-  </p>
+        <p className="text-base text-gray-700 p-4 mb-4 font-serif">
+          Ever wondered how public awareness campaigns shape perceptions about health? Branding a disease is an intricate process that involves creating a relatable identity, crafting compelling messages, and engaging audiences to inspire action. Dive into this guide to learn how communication strategies can drive awareness and change.
+        </p>
 
-  <h2 className="text-2xl font-bold p-4 mb-4">Understanding the Concept</h2>
-  <p className="text-base text-gray-700 mb-4 border-l-4 border-black p-4 font-serif">
-    "What does it mean to brand a disease?" It’s about making a health issue recognizable and relatable. From the iconic pink ribbon for breast cancer to global campaigns for malaria prevention, branding creates a visual and emotional connection that resonates with the public. Learn how these efforts translate awareness into action.
-  </p>
+        <h2 className="text-2xl font-bold p-4 mb-4">Understanding the Concept</h2>
+        <p className="text-base text-gray-700 mb-4 border-l-4 border-black p-4 font-serif">
+          &quot;What does it mean to brand a disease?&quot; It’s about making a health issue recognizable and relatable. From the iconic pink ribbon for breast cancer to global campaigns for malaria prevention, branding creates a visual and emotional connection that resonates with the public. Learn how these efforts translate awareness into action.
+        </p>
 
-  <h2 className="text-2xl font-bold mb-4 p-4">Crafting a Powerful Message</h2>
-  <p className="text-base text-gray-700 p-4 mb-4 font-serif">
-    The right message can make all the difference. Successful disease branding involves understanding the audience and addressing their fears, hopes, and motivations. Use simple, impactful language and visuals that encourage engagement. Whether it’s promoting vaccinations or lifestyle changes, a clear message can inspire trust and action.
-  </p>
+        <h2 className="text-2xl font-bold mb-4 p-4">Crafting a Powerful Message</h2>
+        <p className="text-base text-gray-700 p-4 mb-4 font-serif">
+          The right message can make all the difference. Successful disease branding involves understanding the audience and addressing their fears, hopes, and motivations. Use simple, impactful language and visuals that encourage engagement. Whether it’s promoting vaccinations or lifestyle changes, a clear message can inspire trust and action.
+        </p>
 
-  <h2 className="text-2xl font-bold mb-4 p-4">Building Community Support</h2>
-  <p className="text-3xl text-gray-700 p-4 border-l-4 border-black font-serif">
-    “Together, we can make a difference.”
-  </p>
-  <p className="text-base text-gray-700 p-4 font-serif">
-    Collaboration is key to impactful disease branding. Engage with healthcare providers, non-profits, and influencers to amplify your reach. Community events, social media campaigns, and storytelling can foster a sense of unity and shared purpose. The goal is to create a movement that drives awareness, prevention, and support.
-  </p>
-</div>
-
-
-
+        <h2 className="text-2xl font-bold mb-4 p-4">Building Community Support</h2>
+        <p className="text-3xl text-gray-700 p-4 border-l-4 border-black font-serif">
+          &ldquo;Together, we can make a difference.&rdquo;
+        </p>
+        <p className="text-base text-gray-700 p-4 font-serif">
+          Collaboration is key to impactful disease branding. Engage with healthcare providers, non-profits, and influencers to amplify your reach. Community events, social media campaigns, and storytelling can foster a sense of unity and shared purpose. The goal is to create a movement that drives awareness, prevention, and support.
+        </p>
+      </div>
 
       {/* Comment Section */}
       <div className="w-full max-w-3xl mt-10 bg-white p-4">

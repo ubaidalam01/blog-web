@@ -35,9 +35,11 @@ const Void = () => {
             <BsThreeDotsVertical />
           </span>
         </div>
-        <h1 className="text-4xl font-bold mt-4">20 MUSEUMS YOU SHOULD<br/> VISIT AT LEAST ONCE</h1>
+        <h1 className="text-4xl font-bold mt-4">
+          20 MUSEUMS YOU SHOULD<br/> VISIT AT LEAST ONCE
+        </h1>
         <p className="text-lg font-sans mt-2">
-        The full list includes 10 cities in 8 different countries.
+          The full list includes 10 cities in 8 different countries.
         </p>
       </div>
 
@@ -57,30 +59,28 @@ const Void = () => {
 
       {/* Blog Content */}
       <div className="w-full max-w-3xl mt-10 bg-white">
-  <p className="text-base text-gray-700 p-4 mb-4 font-serif">
-    Museums are the custodians of history, culture, and art. "20 Museums You Should Visit at Least Once" is your guide to exploring the world's most iconic and inspiring museums. From ancient artifacts to modern masterpieces, each museum offers a unique window into the past and the present.
-  </p>
+        <p className="text-base text-gray-700 p-4 mb-4 font-serif">
+          Museums are the custodians of history, culture, and art. &quot;20 Museums You Should Visit at Least Once&quot; is your guide to exploring the world's most iconic and inspiring museums. From ancient artifacts to modern masterpieces, each museum offers a unique window into the past and the present.
+        </p>
 
-  <h2 className="text-2xl font-bold p-4 mb-4">Why Visit These Museums?</h2>
-  <p className="text-base text-gray-700 mb-4 border-l-4 border-black p-4 font-serif">
-    "What makes these museums special?" Each of these twenty museums has been selected for its unparalleled collections, architectural beauty, and cultural significance. They are spaces where stories come to life, sparking curiosity and inspiring a deeper appreciation for the world around us.
-  </p>
+        <h2 className="text-2xl font-bold p-4 mb-4">Why Visit These Museums?</h2>
+        <p className="text-base text-gray-700 mb-4 border-l-4 border-black p-4 font-serif">
+          &quot;What makes these museums special?&quot; Each of these twenty museums has been selected for its unparalleled collections, architectural beauty, and cultural significance. They are spaces where stories come to life, sparking curiosity and inspiring a deeper appreciation for the world around us.
+        </p>
 
-  <h2 className="text-2xl font-bold mb-4 p-4">Unmissable Highlights</h2>
-  <p className="text-base text-gray-700 p-4 mb-4 font-serif">
-    Whether it's the enigmatic Mona Lisa at the Louvre, the awe-inspiring dinosaur skeletons at the American Museum of Natural History, or the cutting-edge exhibitions at the Guggenheim, these museums house treasures that captivate visitors of all ages. Discover the must-see exhibits that make each visit unforgettable.
-  </p>
+        <h2 className="text-2xl font-bold mb-4 p-4">Unmissable Highlights</h2>
+        <p className="text-base text-gray-700 p-4 mb-4 font-serif">
+          Whether it's the enigmatic Mona Lisa at the Louvre, the awe-inspiring dinosaur skeletons at the American Museum of Natural History, or the cutting-edge exhibitions at the Guggenheim, these museums house treasures that captivate visitors of all ages. Discover the must-see exhibits that make each visit unforgettable.
+        </p>
 
-  <h2 className="text-2xl font-bold mb-4 p-4">Plan Your Museum Adventures</h2>
-  <p className="text-3xl text-gray-700 p-4 border-l-4 border-black font-serif">
-    “Expand your horizons and step into a world of wonder.”
-  </p>
-  <p className="text-base text-gray-700 p-4 font-serif">
-    Start planning your museum bucket list today. From Europe to Asia, and North America to Australia, these museums are waiting to be explored. Whether you prefer history, art, or science, there’s something for everyone. Don’t just read about history—experience it up close and personal.
-  </p>
-</div>
-
-
+        <h2 className="text-2xl font-bold mb-4 p-4">Plan Your Museum Adventures</h2>
+        <p className="text-3xl text-gray-700 p-4 border-l-4 border-black font-serif">
+          &ldquo;Expand your horizons and step into a world of wonder.&rdquo;
+        </p>
+        <p className="text-base text-gray-700 p-4 font-serif">
+          Start planning your museum bucket list today. From Europe to Asia, and North America to Australia, these museums are waiting to be explored. Whether you prefer history, art, or science, there&rsquo;s something for everyone. Don&rsquo;t just read about history—experience it up close and personal.
+        </p>
+      </div>
 
       {/* Comment Section */}
       <div className="w-full max-w-3xl mt-10 bg-white p-4">

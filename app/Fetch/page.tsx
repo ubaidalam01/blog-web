@@ -68,7 +68,7 @@ const Fetch = () => {
 
         <h2 className="text-2xl font-bold p-4 mb-4">A Lineup to Remember</h2>
         <p className="text-base text-gray-700 mb-4 border-l-4 border-black p-4 font-serif">
-          "Who's performing this year?" From globally renowned headliners to
+          &quot;Who&apos;s performing this year?&quot; From globally renowned headliners to
           emerging local talents, FETCH Festival BRLN 2023 offers a diverse
           lineup of artists across multiple genres. Enjoy electrifying
           performances, immersive DJ sets, and live bands that will keep you
@@ -82,19 +82,19 @@ const Fetch = () => {
           Beyond music, the festival features interactive art installations and
           workshops led by industry professionals. Explore avant-garde designs,
           participate in creative sessions, and discover the stories behind the
-          art. It's a perfect blend of inspiration and innovation for
+          art. It&apos;s a perfect blend of inspiration and innovation for
           festival-goers.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 p-4">Unite and Celebrate</h2>
         <p className="text-3xl text-gray-700 p-4 border-l-4 border-black font-serif">
-          “Join the movement and feel the rhythm of Berlin.”
+          &ldquo;Join the movement and feel the rhythm of Berlin.&rdquo;
         </p>
         <p className="text-base text-gray-700 p-4 font-serif">
-          FETCH Festival BRLN 2023 is more than just an event; it’s a community.
+          FETCH Festival BRLN 2023 is more than just an event; it&apos;s a community.
           Meet like-minded individuals, share memorable moments, and immerse
-          yourself in Berlin’s dynamic cultural scene. From food trucks to
-          pop-up shops, there’s something for everyone to enjoy. Don’t miss this
+          yourself in Berlin&apos;s dynamic cultural scene. From food trucks to
+          pop-up shops, there&apos;s something for everyone to enjoy. Don&apos;t miss this
           chance to celebrate creativity and connection.
         </p>
       </div>

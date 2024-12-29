@@ -7,7 +7,7 @@ const Brand = () => {
   // Define the state for comments and new comment input
   const [comments, setComments] = useState<string[]>([]);
   const [newComment, setNewComment] = useState<string>('');
-  
+
   // Define the state for showing and hiding the delete dropdown
   const [showDeleteIndex, setShowDeleteIndex] = useState<number | null>(null);
 
@@ -35,7 +35,9 @@ const Brand = () => {
             <BsThreeDotsVertical />
           </span>
         </div>
-        <h1 className="text-4xl font-bold mt-4">THE STORY BEHIND “FYI: I'M<br/> ABOUT TO LOVE YOU” — AN<br/> INTERVIEW WITH KAY VAN<br/> HANS</h1>
+        <h1 className="text-4xl font-bold mt-4">
+          THE STORY BEHIND &ldquo;FYI: I&apos;M<br/> ABOUT TO LOVE YOU&rdquo; — AN<br/> INTERVIEW WITH KAY VAN<br/> HANS
+        </h1>
         <p className="text-lg font-sans mt-2">The hamburg based artist opens the door to a different dimension.</p>
       </div>
 
@@ -55,29 +57,28 @@ const Brand = () => {
 
       {/* Blog Content */}
       <div className="w-full max-w-3xl mt-10 bg-white">
-  <p className="text-base text-gray-700 p-4 mb-4 font-serif">
-    Dive into the heartfelt journey of music and connection with Kay Van Hans in "FYI: I'm About to Love You." This exclusive interview reveals the inspiration behind the lyrics, the creative process, and the emotions that brought this iconic song to life. Discover how one artist's vulnerability transformed into an anthem for millions.
-  </p>
+        <p className="text-base text-gray-700 p-4 mb-4 font-serif">
+          Dive into the heartfelt journey of music and connection with Kay Van Hans in "FYI: I'm About to Love You." This exclusive interview reveals the inspiration behind the lyrics, the creative process, and the emotions that brought this iconic song to life. Discover how one artist's vulnerability transformed into an anthem for millions.
+        </p>
 
-  <h2 className="text-2xl font-bold p-4 mb-4">The Meaning Behind the Lyrics</h2>
-  <p className="text-base text-gray-700 mb-4 border-l-4 border-black p-4 font-serif">
-    "What inspired those unforgettable words?" Kay delves into the personal experiences that shaped the song. From fleeting moments of connection to profound realizations about love, every lyric tells a story that resonates deeply with listeners worldwide.
-  </p>
+        <h2 className="text-2xl font-bold p-4 mb-4">The Meaning Behind the Lyrics</h2>
+        <p className="text-base text-gray-700 mb-4 border-l-4 border-black p-4 font-serif">
+          &ldquo;What inspired those unforgettable words?&rdquo; Kay delves into the personal experiences that shaped the song. From fleeting moments of connection to profound realizations about love, every lyric tells a story that resonates deeply with listeners worldwide.
+        </p>
 
-  <h2 className="text-2xl font-bold mb-4 p-4">The Creative Journey</h2>
-  <p className="text-base text-gray-700 p-4 mb-4 font-serif">
-    Writing and recording "FYI: I'm About to Love You" was both a challenge and a catharsis for Kay. The interview explores the late-night studio sessions, the collaboration with top producers, and the raw honesty that made this track stand out. Learn how the synergy between creativity and emotion brought this masterpiece to fruition.
-  </p>
+        <h2 className="text-2xl font-bold mb-4 p-4">The Creative Journey</h2>
+        <p className="text-base text-gray-700 p-4 mb-4 font-serif">
+          Writing and recording "FYI: I'm About to Love You" was both a challenge and a catharsis for Kay. The interview explores the late-night studio sessions, the collaboration with top producers, and the raw honesty that made this track stand out. Learn how the synergy between creativity and emotion brought this masterpiece to fruition.
+        </p>
 
-  <h2 className="text-2xl font-bold mb-4 p-4">A Universal Love Story</h2>
-  <p className="text-3xl text-gray-700 p-4 border-l-4 border-black font-serif">
-    “Music is the language of love, and this song speaks volumes.”
-  </p>
-  <p className="text-base text-gray-700 p-4 font-serif">
-    In this candid conversation, Kay shares how "FYI: I'm About to Love You" became a symbol of connection and hope for fans around the globe. Whether it's through heartfelt ballads or energetic anthems, Kay's music continues to inspire. Step into the world of a visionary artist and feel the love in every note.
-  </p>
-</div>
-
+        <h2 className="text-2xl font-bold mb-4 p-4">A Universal Love Story</h2>
+        <p className="text-3xl text-gray-700 p-4 border-l-4 border-black font-serif">
+          &ldquo;Music is the language of love, and this song speaks volumes.&rdquo;
+        </p>
+        <p className="text-base text-gray-700 p-4 font-serif">
+          In this candid conversation, Kay shares how "FYI: I'm About to Love You" became a symbol of connection and hope for fans around the globe. Whether it's through heartfelt ballads or energetic anthems, Kay's music continues to inspire. Step into the world of a visionary artist and feel the love in every note.
+        </p>
+      </div>
 
       {/* Comment Section */}
       <div className="w-full max-w-3xl mt-10 bg-white p-4">

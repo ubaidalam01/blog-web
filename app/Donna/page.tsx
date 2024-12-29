@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { BsThreeDotsVertical } from "react-icons/bs";
@@ -7,7 +7,7 @@ const Dona = () => {
   // Define the state for comments and new comment input
   const [comments, setComments] = useState<string[]>([]);
   const [newComment, setNewComment] = useState<string>('');
-  
+
   // Define the state for showing and hiding the delete dropdown
   const [showDeleteIndex, setShowDeleteIndex] = useState<number | null>(null);
 
@@ -55,30 +55,28 @@ const Dona = () => {
 
       {/* Blog Content */}
       <div className="w-full max-w-3xl mt-10 bg-white">
-  <p className="text-base text-gray-700 p-4 mb-4 font-serif">
-    Get to know Donna Fay like never before! In this candid session, she answers 73 intriguing questions about her life, career, and creative process. From her morning routine to her biggest inspirations, dive deep into the thoughts and experiences that shape her world.
-  </p>
+        <p className="text-base text-gray-700 p-4 mb-4 font-serif">
+          Get to know Donna Fay like never before! In this candid session, she answers 73 intriguing questions about her life, career, and creative process. From her morning routine to her biggest inspirations, dive deep into the thoughts and experiences that shape her world.
+        </p>
 
-  <h2 className="text-2xl font-bold p-4 mb-4">Her Creative Journey</h2>
-  <p className="text-base text-gray-700 mb-4 border-l-4 border-black p-4 font-serif">
-    "What fuels your creativity, Donna?" she shares insights into the moments and experiences that have defined her artistic career. From her favorite childhood memories to the challenges she's overcome, every answer reveals a new layer of her personality and passion.
-  </p>
+        <h2 className="text-2xl font-bold p-4 mb-4">Her Creative Journey</h2>
+        <p className="text-base text-gray-700 mb-4 border-l-4 border-black p-4 font-serif">
+          &quot;What fuels your creativity, Donna?&quot; she shares insights into the moments and experiences that have defined her artistic career. From her favorite childhood memories to the challenges she&apos;s overcome, every answer reveals a new layer of her personality and passion.
+        </p>
 
-  <h2 className="text-2xl font-bold mb-4 p-4">Life Beyond Work</h2>
-  <p className="text-base text-gray-700 p-4 mb-4 font-serif">
-    When she's not creating, Donna loves exploring nature, cooking up new recipes, and spending time with her close-knit family. In this segment, she answers questions about her favorite books, travel destinations, and what she values most in life. Get a glimpse into the heart of her everyday experiences.
-  </p>
+        <h2 className="text-2xl font-bold mb-4 p-4">Life Beyond Work</h2>
+        <p className="text-base text-gray-700 p-4 mb-4 font-serif">
+          When she&apos;s not creating, Donna loves exploring nature, cooking up new recipes, and spending time with her close-knit family. In this segment, she answers questions about her favorite books, travel destinations, and what she values most in life. Get a glimpse into the heart of her everyday experiences.
+        </p>
 
-  <h2 className="text-2xl font-bold mb-4 p-4">Advice for Aspiring Creatives</h2>
-  <p className="text-3xl text-gray-700 p-4 border-l-4 border-black font-serif">
-    “Believe in your vision and never stop learning.”
-  </p>
-  <p className="text-base text-gray-700 p-4 font-serif">
-    Donna shares valuable advice for those looking to follow in her footsteps. From staying authentic to embracing failure as part of the growth process, her answers are both inspiring and practical. Whether you're an artist, writer, or entrepreneur, her words will leave you motivated to chase your dreams.
-  </p>
-</div>
-
-
+        <h2 className="text-2xl font-bold mb-4 p-4">Advice for Aspiring Creatives</h2>
+        <p className="text-3xl text-gray-700 p-4 border-l-4 border-black font-serif">
+          &ldquo;Believe in your vision and never stop learning.&rdquo;
+        </p>
+        <p className="text-base text-gray-700 p-4 font-serif">
+          Donna shares valuable advice for those looking to follow in her footsteps. From staying authentic to embracing failure as part of the growth process, her answers are both inspiring and practical. Whether you&apos;re an artist, writer, or entrepreneur, her words will leave you motivated to chase your dreams.
+        </p>
+      </div>
 
       {/* Comment Section */}
       <div className="w-full max-w-3xl mt-10 bg-white p-4">
