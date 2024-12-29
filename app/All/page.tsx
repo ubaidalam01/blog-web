@@ -71,7 +71,7 @@ const Popular = () => {
   ];
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-32">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-32 bg-white">
       {cards.map((card, index) => (
         <Link key={index} href={card.url} passHref>
           <div className="bg-white w-full max-w-sm overflow-hidden mx-auto font-[sans-serif]">
