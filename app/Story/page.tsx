@@ -26,19 +26,19 @@ const Brand = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center py-16">
+    <div className="min-h-screen flex flex-col items-center py-16 bg-white">
       {/* Blog Header */}
       <div className="text-black w-full max-w-3xl p-4 shadow-2x">
         <div className="flex justify-between items-center">
-          <p className="text-sm">Jun 12, 2023 • 2 min read</p>
-          <span className="text-xl hover:cursor-pointer">
+          <p className="text-sm text-black">Jun 12, 2023 • 2 min read</p>
+          <span className="text-xl hover:cursor-pointer text-black">
             <BsThreeDotsVertical />
           </span>
         </div>
-        <h1 className="text-4xl font-bold mt-4">
+        <h1 className="text-4xl font-bold mt-4 text-black">
           THE STORY BEHIND &ldquo;FYI: I&apos;M<br/> ABOUT TO LOVE YOU&rdquo; — AN<br/> INTERVIEW WITH KAY VAN<br/> HANS
         </h1>
-        <p className="text-lg font-sans mt-2">The hamburg based artist opens the door to a different dimension.</p>
+        <p className="text-lg font-sans mt-2 text-black">The hamburg based artist opens the door to a different dimension.</p>
       </div>
 
       {/* Image Section */}
@@ -57,22 +57,22 @@ const Brand = () => {
 
       {/* Blog Content */}
       
-  <div className="w-full max-w-3xl mt-10 bg-white">
+  <div className="w-full max-w-3xl mt-10 bg-white ">
   <p className="text-base text-gray-700 p-4 mb-4 font-serif">
     Dive into the heartfelt journey of music and connection with Kay Van Hans in &quot;FYI: I&apos;m About to Love You.&quot; This exclusive interview reveals the inspiration behind the lyrics, the creative process, and the emotions that brought this iconic song to life. Discover how one artist&apos;s vulnerability transformed into an anthem for millions.
   </p>
 
-  <h2 className="text-2xl font-bold p-4 mb-4">The Meaning Behind the Lyrics</h2>
+  <h2 className="text-2xl font-bold p-4 mb-4 text-black">The Meaning Behind the Lyrics</h2>
   <p className="text-base text-gray-700 mb-4 border-l-4 border-black p-4 font-serif">
     &ldquo;What inspired those unforgettable words?&rdquo; Kay delves into the personal experiences that shaped the song. From fleeting moments of connection to profound realizations about love, every lyric tells a story that resonates deeply with listeners worldwide.
   </p>
 
-  <h2 className="text-2xl font-bold mb-4 p-4">The Creative Journey</h2>
+  <h2 className="text-2xl font-bold mb-4 p-4 text-black">The Creative Journey</h2>
   <p className="text-base text-gray-700 p-4 mb-4 font-serif">
     Writing and recording &quot;FYI: I&apos;m About to Love You&quot; was both a challenge and a catharsis for Kay. The interview explores the late-night studio sessions, the collaboration with top producers, and the raw honesty that made this track stand out. Learn how the synergy between creativity and emotion brought this masterpiece to fruition.
   </p>
 
-  <h2 className="text-2xl font-bold mb-4 p-4">A Universal Love Story</h2>
+  <h2 className="text-2xl font-bold mb-4 p-4 text-black">A Universal Love Story</h2>
   <p className="text-3xl text-gray-700 p-4 border-l-4 border-black font-serif">
     &ldquo;Music is the language of love, and this song speaks volumes.&rdquo;
   </p>
@@ -83,7 +83,7 @@ const Brand = () => {
 
       {/* Comment Section */}
       <div className="w-full max-w-3xl mt-10 bg-white p-4">
-        <h3 className="text-2xl font-bold mb-4">Comments</h3>
+        <h3 className="text-2xl font-bold mb-4 text-black">Comments</h3>
 
         {/* Input for new comment */}
         <textarea
@@ -94,7 +94,7 @@ const Brand = () => {
         ></textarea>
         <button
           onClick={addComment}
-          className="px-9 border-black border-2 py-2 hover:bg-black hover:text-white transition duration-300 ease-in-out"
+          className="px-9 border-black border-2 py-2 text-black hover:bg-black hover:text-white transition duration-300 ease-in-out"
         >
           Add Comment
         </button>
